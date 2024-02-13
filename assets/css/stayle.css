@@ -1,0 +1,33 @@
+.popup{
+  background-color: #7b7c7c92;
+  position: sticky;
+  display: flex;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100vh;
+  
+}
+.text-warning-2{
+  color: #b28c33;
+}
+.visible-popup{
+  display: none;
+}
+.close-btn-carusel{
+  cursor: pointer;
+}
+.border-b-warning{
+  border-bottom: 2px solid #b28c33;
+}
+.popup-img-grid__box{
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  grid-template-rows: repeat(3 1fr);
+  grid-gap: 20px;
+}
+.popup__center-box{
+  border-radius: 20px;
+
+}
